@@ -1,10 +1,11 @@
-
+import "./listaSolicitacoes.css"
 
 export default function ListaSolicitacoes() {
 
   
   return (
-    <div className="position-relative container d-flex flex-column gap-4">
+    <main>
+    <div className="table_content">
       <div className='w-auto row d-flex flex-row justify-content-between flex-nowrap animate__backInUp animate__delay-2s'>
         <h5 className='col'>Bem vindo!</h5>
       </div>
@@ -46,5 +47,6 @@ export default function ListaSolicitacoes() {
         </table>
       </div>
     </div>
+    </main>
   );
 }
