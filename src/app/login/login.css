@@ -1,0 +1,110 @@
+.content_login {
+    display: flex;
+    justify-content: center;
+}
+
+.content_login .container {
+    display: flex;
+    width: 60%;
+    height: 65vh;
+    flex-wrap: wrap;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content_login .left{
+    flex-basis: calc(55%);
+    }
+
+.content_login .left h1{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 4.5rem;
+}
+
+.content_login .left .textbox{
+    margin-left: 3vw;
+    margin-top: 15vh;
+}
+
+.content_login .left p{
+    font-weight: 250;
+}
+
+.button_sign_up{
+    margin-top: 10vh;
+}
+
+.button_sign_up a{
+    background-color: #0077B6;
+    color: #fff;
+    padding: 0.5vw 3vw;
+    border-radius: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.content_login .right {
+    flex-basis: calc(45%); 
+    background-color: #0077B6;
+    border-radius: 10px;
+}
+
+.content_login .right h1{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.content_login .right p{
+    color: white;
+    font-weight: 200;
+}
+
+.content_login .right form{
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+
+.content_login .right form .content_form{
+    display: flex;
+    width: 75%;
+    padding: 3% 0;
+    flex-direction: column;
+}
+
+.content_login .content_form label{
+    color: #fff;
+    font-weight: 350;
+    margin-top: 2vh;
+}
+
+.content_login .content_form input{
+    border-radius: 10px;
+    height: 30px;
+    background: #D9D9D9;
+    text-decoration: none;
+    border: transparent;
+}
+
+.content_login .right button{
+    width: 40%;
+    height: 4vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    color: #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.content_login .right button:hover{
+    background-color: #fff;
+    color: #263238;
+}

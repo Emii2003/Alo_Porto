@@ -1,0 +1,60 @@
+.menu {
+    display: flex;
+    align-items: center;
+    min-height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  
+  .menu .logo {
+    display: block;
+    max-width: 15%;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #03045E;
+  }
+  
+  nav a {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-right: 2vw;
+  }
+  
+  nav a:hover {
+    color: #0077B6;
+  }
+  
+  .menu nav ul #login{
+    background-color: #0077B6;
+    color: #fff;
+    padding: 0.5vw 3vw;
+    border-radius: 40px;
+    font-weight: 580;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid transparent;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .menu{
+      max-width: 500px;
+    }
+  }
