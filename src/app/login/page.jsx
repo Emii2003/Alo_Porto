@@ -86,7 +86,7 @@ export default function LoginUsers() {
             <p>Caso não tenha um cadastro no</p>
             <p>nosso sistema, clique aqui!</p>
             <div className="button_sign_up">
-              <a href="#">Cadastrar</a>
+              <Link href="/cadastro">Cadastrar</Link>
             </div>
           </div>
         </div>

@@ -18,15 +18,8 @@ export default function Menu() {
               <li>
                 <Link href="/home">Home</Link>
               </li>
-          
               <li>
-                <Link href='/cadastro'>Cadastro</Link>
-              </li>
-              <li>
-                <Link href='/solicitarGuincho'>Guincho</Link>
-              </li>
-              <li>
-                <Link href='/listaSolicitacoes'>Lista</Link>
+                <Link href='/listaSolicitacoes'>Exemplo de uma solicitação</Link>
               </li>
               <li>
                 <Link href='/login' id='login'>Login</Link>
