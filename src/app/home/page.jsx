@@ -34,15 +34,15 @@ export default function Home(){
                 </div>
                 <div className="card">
                     <div className="ImageCard">
-                        <Image src={"/AboutProject/ImgProjeto2.svg"} alt="Logo da Porto Seguro"
+                        <Image src={"/AboutProject/ImgProjeto3.svg"} alt="Imagem de um celular com rostinho"
                         layout="fill" className="ImageCard"/>
                     </div>
                     <p>Para nos solicitar, basta fazer login e já poderá acessar nossa plataforma, insira apenas a placa e a localização, terá a opção de enviar foto para automatizar ainda mais o processo. Iremos facilitar seu contato com o prestador de serviço, que analisará sua situação e poderá atender rapidamente.</p>
                 </div>
 
                 <div className="card">
-                    <div className="ImageCard">
-                        <Image src={"/AboutProject/ImgProjeto3.svg"} alt="Logo da Porto Seguro"
+                <div className="ImageCard">
+                        <Image src={"/AboutProject/ImgProjeto2.svg"} alt="Imagem de um carro sendo guinchado"
                         layout="fill" className="ImageCard"/>
                     </div>
                     <p>Este processo de solicitação economiza tempo de espera, não é necessário que faça atendimento direto com a Porto, garantimos qualidade e assertividade. Através do nosso sistema, é possível acompanhar sua solicitação de guincho em tempo real, podendo cancelar quando quiser. </p> 
