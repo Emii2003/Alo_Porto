@@ -1,6 +1,8 @@
-import React from "react"
 import Image from "next/image"
 import "./home.css"
+import Link from "next/link";
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 export default function Home(){
     return(
@@ -53,46 +55,61 @@ export default function Home(){
         <div className="container">
             <div className="section_perfil">
             <Image src={"/AboutUs/foto_Jul.svg"} alt='Foto de perfil da Júlia'
-            width={150} height={150}/>
+            width={150} height={150} className="image-container"/>
             <span><p>Júlia Andrade</p></span>
-            <p>Full Stack developer</p>
-            <p className='light'>RM: 552332</p>
+            <p>RM: 552332</p>
+            <div className="icon_section">
+                <Link href={""} className="icon_profile"> <BsGithub></BsGithub></Link>
+                <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
+            </div>
             </div>
  
             <div className="section_perfil">
             <Image src={"/AboutUs/foto_emi.svg"} alt='Foto de perfil da Emile'
-            width={150} height={150}/>
+            width={150} height={150} className="image-container"/>
             <span><p>Emile Maia</p></span>
-            <p>Front End developer</p>
-            <p className='light'>RM: 552235</p>
+            <p>RM: 552235</p>
+            <div className="icon_section">
+                <Link href={""} className="icon_profile"> <BsGithub></BsGithub></Link>
+                <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
+            </div>
             </div>
  
             <div className="section_perfil">
             <Image src={"/AboutUs/foto_gui.svg"} alt='Foto de perfil do Guilherme'
-            width={150} height={150}/>
+            width={150} height={150} className="image-container"/>
             <span><p>Guilherme P.</p></span>
-            <p>Chatbot developer</p>
-            <p className='light'>RM: 552238</p>
+            <p>RM: 552238</p>
+            <div className="icon_section">
+                <Link href={""} className="icon_profile"> <BsGithub></BsGithub></Link>
+                <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
+            </div>
             </div>
  
             <div className="section_perfil">
             <Image src={"/AboutUs/foto_caio.svg"} alt='Foto de perfil do Caio'
-            width={150} height={150}/>
+            width={150} height={150} className="image-container"/>
             <span><p>Caio Vitor </p></span>
-            <p>Front end developer</p>
-            <p className='light'>RM: 552392</p>
+            <p>RM: 552392</p>
+            <div className="icon_section">
+                <Link href={""} className="icon_profile"> <BsGithub></BsGithub></Link>
+                <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
+            </div>
             </div>
  
             <div className="section_perfil">
             <Image src={"/AboutUs/foto_edu.svg"} alt='Foto de perfil do Carlos'
-            width={150} height={150}/>
+            width={150} height={150} className="image-container"/>
             <span><p>Carlos Eduardo</p></span>
-            <p>Designer</p>
-            <p className='light'>RM: 94787</p>
+            <p>RM: 94787</p>
+            <div className="icon_section">
+                <Link href={""} className="icon_profile"> <BsGithub></BsGithub></Link>
+                <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
             </div>
- 
+            </div>
+
         </div>
       </div>
-        </div>
+    </div>
     )
 }
