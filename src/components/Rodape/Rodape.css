@@ -1,7 +1,22 @@
 footer{
+  text-align: center;
   bottom: 0;
   width: 100%;
   background-color: #333; 
   color: #fff; 
   padding: 10px; 
+}
+
+.rep_link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.rep_icon{
+  margin-left: 1vw;
+  transition: color 0.3s ease;
+}
+
+.rep_icon:hover {
+  color: #0070f3; /* Cor desejada no hover */
 }
