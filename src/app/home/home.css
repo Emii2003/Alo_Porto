@@ -103,8 +103,29 @@
     color: #03045E;
 }
 
-.content_about .light{
-    font-weight: 350;
+.image-container {
+    position: relative;
+    transition: .4s;
+  }
+  
+  .image-container:hover {
+    transform: translateY(-10px);
+  }
+  
+
+
+.icon_profile{
+    color: #03045E;
+    margin: 5% 5% 0% 5%;
+    transition: color 0.3s ease;
+}
+
+.icon_profile:hover {
+    color: #0070f3; /* Cor desejada no hover */
+  }
+
+.icon_section{
+    display: flex;
 }
 
 @media only screen and (max-width: 700px) {
