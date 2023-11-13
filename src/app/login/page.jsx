@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import "./login.css"
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -42,7 +43,7 @@ export default function LoginUsers() {
       if (response.ok) {
         
         const result = await response.json();
-          console.log("VALIDADO!!!!");
+          console.log("validado com sucesso");
         if (result.status) {
             
                      //Gerando o TOKEN de acesso!
@@ -54,7 +55,7 @@ export default function LoginUsers() {
           //Armazenando o objeto USUÁRIO no SessionStorage!
           sessionStorage.setItem("user-info", JSON.stringify(result.user));
 
-            setMsg("Login efetuado com Sucesso!!");
+            setMsg("Logado");
             setTimeout(()=>{
                 setMsg("");
                 //Redirecionando para a página HOME!
@@ -76,80 +77,45 @@ export default function LoginUsers() {
   };
 
   return (
-    <div>
-      <h1>IDENTIFICAÇÃO DOS USUÁRIOS</h1>
+    <div className="content_login">
+  <h2 className={msg == "Login efetuado com Sucesso!!" ? "msg-success-login":"msg-error-login"}>{msg}</h2>
+      <div className="container">
+        <div className="left">
+          <div className="textbox">
+            <h1>Bem vindo de volta!!</h1>
+            <p>Caso não tenha um cadastro no</p>
+            <p>nosso sistema, clique aqui!</p>
+            <div className="button_sign_up">
+              <a href="#">Cadastrar</a>
+            </div>
+          </div>
+        </div>
+        <div className="right">
+          <form onSubmit={handleSubmit}>
+            <div className="title">
+              <h1>Acesse</h1>
+              <p>Insira seu CPF e senha para entrar</p>
+            </div>
+            <div className="content_form">
+              <label for="cpf">CPF:</label>
+              <input type="text"
+                  name="cpf"
+                  id="idCpf"
+                  value={usuario.cpf}
+                  onChange={handleChange} 
+                  required/>
 
-        <h2 className={msg == "Login efetuado com Sucesso!!" ? "msg-success-login":"msg-error-login"}>{msg}</h2>
-
-      <div className="form-login">
-        <form onSubmit={handleSubmit}>
-          <fieldset>
-            <legend>LOGIN</legend>
-            <div>
-              <label htmlFor="idCpf">CPF:</label>
-              <input
-                type="text"
-                name="cpf"
-                id="idCpf"
-                placeholder="Digite seu cpf."
-                value={usuario.cpf}
-                onChange={handleChange}
-              />
+              <label for="senha">Senha:</label>
+              <input type="password"
+                  name="senha"
+                  id="idSenha"
+                  value={usuario.senha}
+                  onChange={handleChange} required />
             </div>
-            <div>
-              <label htmlFor="idSenha">Senha:</label>
-              <input
-                type="password"
-                name="senha"
-                id="idSenha"
-                placeholder="Digite sua senha."
-                value={usuario.senha}
-                onChange={handleChange}
-              />
-            </div>
-            <div>
-              <button>LOGIN</button>
-            </div>
-            <div className="p-5 m-auto w-2/4">
-              <p>Se você não é cadastrado em nosso sistema, <Link href="/login/cad" className="text-amber-500 hover:text-amber-200">CLIQUE AQUI</Link> para se registrar.</p>
-            </div>
-          </fieldset>
-        </form>
+            <button type="submit">Entrar</button>
+          </form>
+        </div>
       </div>
     </div>
-  );
+);
 }
-
-// export default function LoginPage() {
-//   return (
-//         <div className="content_login">
-//           <div className="container">
-//             <div className="left">
-//               <div className="textbox">
-//                 <h1>Bem vindo de volta!!</h1>
-//                 <p>Caso não tenha um cadastro no</p>
-//                 <p>nosso sistema, clique aqui!</p>
-//                 <div className="button_sign_up">
-//                   <a href="#">Cadastrar</a>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="right">
-//               <form action="#" method="post">
-//                 <div className="title">
-//                   <h1>Acesse</h1>
-//                   <p>Insira seu CPF e senha para entrar</p>
-//                 </div>
-//                 <div className="content_form">
-//                   <label for="cpf">CPF:</label>
-//                   <input type="text" id="cpf" name="cpf" required />
-//                   <label for="senha">Senha:</label>
-//                   <input type="password" id="senha" name="senha" required />
-//                 </div>
-//                 <button type="submit">Entrar</button>
-//               </form>
-//             </div>
-//           </div>
-//         </div>
-//   );
-// }

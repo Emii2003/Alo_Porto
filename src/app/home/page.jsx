@@ -107,6 +107,7 @@ export default function Home(){
                 <Link href={""} className="icon_profile"> <BsLinkedin></BsLinkedin> </Link>
             </div>
             </div>
+
         </div>
       </div>
     </div>
