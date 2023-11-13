@@ -6,8 +6,8 @@ export default function ListaSolicitacoes() {
   return (
     <main>
     <div className="table_content">
-      <div className='w-auto row d-flex flex-row justify-content-between flex-nowrap animate__backInUp animate__delay-2s'>
-        <h5 className='col'>Bem vindo!</h5>
+      <div className='table_container'>
+        <h5 className='table_title'>Bem vindo!</h5>
       </div>
       <div className='row table-responsive'>
         <table className="table table-striped table-hover">

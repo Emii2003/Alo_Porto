@@ -1,0 +1,16 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "cpf": "44930659825",
+        "email": "emilemouramaia2@gmail.com",
+        "senha": "euamochurros"
+      },
+      {
+        "id": 2,
+        "cpf": "44930659848",
+        "email": "julinha@gmails.com",
+        "senha": "euamojava"
+      }
+    ]
+  }
