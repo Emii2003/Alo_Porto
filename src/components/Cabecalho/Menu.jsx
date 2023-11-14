@@ -8,7 +8,7 @@ export default function Menu() {
       <header>
         <div className="menu">
           <Image
-            src={"/logo/img_logo.png"}
+            src={"/Logo/img_logo.png"}
             alt="Logo de caminhão"
             width={130}
             height={100}
