@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Alô, Porto?
 
-First, run the development server:
+Entrega da Sprint 4 do projeto Alo Porto. Nossa tarefa é facilitar o seu contato com a Porto Seguro, o objetivo desda aplicação é facilitar o processo de solicitação de guincho, sendo rápido, automatizado e sem perder tempo de espera. 
+
+
+
+
+## Integrantes
+
+- [Emile](https://github.com/Emii2003) 
+- [Julia](https://github.com/Jujuad)
+- [Caio](https://github.com/GitHubWithCjcnch)
+- [Guilherme](https://github.com/Str1nder)
+
+
+
+
+
+## Modelo Banco de Dados
+
+![Modelo Banco de Dados](https://thumbs2.imgbox.com/93/0f/WIqFUei0_t.png)
+
+
+
+
+## Rodando os testes
+
+- Este é um projeto feito utilizando React
+- Para executar o projeto, primeiro clone o repositório
+- Execute no seu terminal o sueguinte comando:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Depois, execute:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Demonstração
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Acesse o Link (hospedado na Vercel) - https://alo-porto-2t56-md3i9atb2-emii2003.vercel.app/login
+- Acesse a página de Login:
+![Modelo Banco de Dados](https://thumbs2.imgbox.com/0b/dd/yUdNBGjd_t.png)
 
-## Deploy on Vercel
+Preencha: 
+- CPF: 44930659825
+- Senha: euamochurros
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Na página de solicitação pode preencher com os dados que desejar:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Modelo Banco de Dados](https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png)
+
+
+
+## Repositórios - Backend
+
+ - [API em Python (CRUD)](https://github.com/GitHubWithCjcnch/api-python-sprint-4)
+ - [API em Java (EndPoints)](https://github.com/matiassingers/awesome-readme)
+
+
