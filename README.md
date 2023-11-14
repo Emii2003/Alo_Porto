@@ -47,7 +47,8 @@ Entrega da Sprint 4 do projeto Alo Porto. Nossa tarefa é facilitar o seu contat
 
 - Acesse o Link (hospedado na Vercel) - https://alo-porto-2t56-md3i9atb2-emii2003.vercel.app/login
 - Acesse a página de Login:
-![Modelo Banco de Dados](https://thumbs2.imgbox.com/0b/dd/yUdNBGjd_t.png)
+  
+![link](https://thumbs2.imgbox.com/0b/dd/yUdNBGjd_t.png)
 
 Preencha: 
 - CPF: 44930659825
@@ -55,7 +56,7 @@ Preencha:
 
 Na página de solicitação pode preencher com os dados que desejar:
 
-![Modelo Banco de Dados](https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png)
+![link](https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png)
 
 
 
