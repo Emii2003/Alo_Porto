@@ -12,6 +12,7 @@ Entrega da Sprint 4 do projeto Alo Porto. Nossa tarefa é facilitar o seu contat
 - [Julia](https://github.com/Jujuad)
 - [Caio](https://github.com/GitHubWithCjcnch)
 - [Guilherme](https://github.com/Str1nder)
+- [Eduardo](https://github.com/Str1nder)
 
 
 
