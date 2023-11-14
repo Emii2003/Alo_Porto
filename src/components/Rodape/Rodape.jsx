@@ -14,6 +14,8 @@ export default function Footer(){
             <BsGithub className="rep_icon"></BsGithub>
           </Link>
         </div>
+        
       </footer>
     )
+    
 }
