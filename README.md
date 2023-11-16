@@ -54,16 +54,12 @@ Preencha:
 - CPF: 44930659825
 - Senha: euamochurros
 
-Na página de solicitação pode preencher com os dados que desejar:
-
-![link](https://thumbs2.imgbox.com/b1/9f/Z3uJzGNg_t.png)
-
 
 
 
 ## Repositórios - Backend
 
  - [API em Python (CRUD)](https://github.com/GitHubWithCjcnch/api-python-sprint-4)
- - [API em Java (EndPoints)](https://github.com/matiassingers/awesome-readme)
+ - [API em Java (EndPoints)](https://github.com/Jujuad/sprint4-challenge)
 
 
