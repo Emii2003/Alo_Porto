@@ -56,7 +56,7 @@ Preencha:
 
 Na página de solicitação pode preencher com os dados que desejar:
 
-![link]([https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png](https://thumbs2.imgbox.com/b1/9f/Z3uJzGNg_t.png))
+![link]((https://thumbs2.imgbox.com/b1/9f/Z3uJzGNg_t.png))
 
 
 
