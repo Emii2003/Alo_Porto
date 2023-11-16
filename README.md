@@ -26,9 +26,9 @@ Entrega da Sprint 4 do projeto Alo Porto. Nossa tarefa é facilitar o seu contat
 
 
 ## Rodando os testes
-
-- Este é um projeto feito utilizando React
-- Para executar o projeto, primeiro clone o repositório
+- Acesse o Link (hospedado na Vercel)- https://alo-porto-2t56-md3i9atb2-emii2003.vercel.app/login
+- Este é um projeto feito utilizando React + o framework next.js
+- Para executar o projeto na sua máquina, primeiro clone o repositório
 - Execute no seu terminal o sueguinte comando:
 
 ```bash
@@ -46,7 +46,6 @@ Entrega da Sprint 4 do projeto Alo Porto. Nossa tarefa é facilitar o seu contat
 
 ## Demonstração
 
-- Acesse o Link (hospedado na Vercel) - https://alo-porto-2t56-md3i9atb2-emii2003.vercel.app/login
 - Acesse a página de Login:
   
 ![link](https://thumbs2.imgbox.com/0b/dd/yUdNBGjd_t.png)
@@ -57,7 +56,8 @@ Preencha:
 
 Na página de solicitação pode preencher com os dados que desejar:
 
-![link](https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png)
+![link]([https://thumbs2.imgbox.com/db/fa/CwmRO5I6_t.png](https://thumbs2.imgbox.com/b1/9f/Z3uJzGNg_t.png))
+
 
 
 
